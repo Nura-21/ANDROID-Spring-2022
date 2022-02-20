@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,27 +11,29 @@
     <TextView
         android:id="@+id/operation"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
+        android:layout_height="350px"
         android:textColor="@android:color/white"
         android:gravity="end"
         android:ellipsize="start"
         android:textSize="40sp"
         android:singleLine="true"
-        android:paddingTop="45dp"
+        android:text = "01"
+        android:paddingTop="100px"
         />
 
     <TextView
         android:id="@+id/result"
         android:layout_width="match_parent"
-        android:layout_height="140dp"
+        android:layout_height="350px"
         android:textColor="@android:color/white"
         android:gravity="end"
         android:ellipsize="end"
         android:textSize="40sp"
         android:singleLine="true"
-        android:paddingTop="45dp"
+        android:text = "01"
+        android:paddingTop="100px"
         />
-
+    
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
@@ -177,10 +180,17 @@
             >
 
             <TextView
-                android:id="@+id/btn_0"
                 style="@style/NumberButton"
-                android:layout_width="103dp"
-                android:text="0"></TextView>
+                android:id="@+id/btn_0"
+                android:text="0">
+            </TextView>
+
+            <TextView
+                style="@style/ActionButton"
+                android:id="@+id/btn_dot"
+                android:text="."
+                android:textSize = "40sp">
+            </TextView>
 
             <TextView
                 style="@style/ActionButton"

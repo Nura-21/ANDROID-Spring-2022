@@ -3,9 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@android:color/black"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/operation"
@@ -14,9 +16,11 @@
         android:textColor="@android:color/white"
         android:gravity="end"
         android:ellipsize="start"
-        android:textSize="40sp"
+        android:textSize="40dp"
         android:singleLine="true"
         android:paddingTop="45dp"
+        android:text="01"
+        android:fontFamily="@font/disket_regular"
         />
 
     <TextView
@@ -26,9 +30,10 @@
         android:textColor="@android:color/white"
         android:gravity="end"
         android:ellipsize="end"
-        android:textSize="40sp"
+        android:textSize="40dp"
         android:singleLine="true"
         android:paddingTop="45dp"
+        android:fontFamily="@font/disket_regular"
         />
 
     <LinearLayout
@@ -141,6 +146,7 @@
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:gravity="center_vertical"
             >
 
             <TextView
@@ -179,8 +185,14 @@
             <TextView
                 android:id="@+id/btn_0"
                 style="@style/NumberButton"
-                android:layout_width="103dp"
-                android:text="0"></TextView>
+                android:text="0">
+            </TextView>
+
+            <TextView
+                android:id="@+id/btn_dot"
+                style="@style/ActionButton"
+                android:text=".">
+            </TextView>
 
             <TextView
                 style="@style/ActionButton"

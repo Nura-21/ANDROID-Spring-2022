@@ -19,7 +19,6 @@
         android:textSize="40dp"
         android:singleLine="true"
         android:paddingTop="45dp"
-        android:text="01"
         android:fontFamily="@font/disket_regular"
         />
 
@@ -146,7 +145,6 @@
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:gravity="center_vertical"
             >
 
             <TextView

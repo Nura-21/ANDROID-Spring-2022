@@ -1,0 +1,10 @@
+{
+    "id" : 1,
+    "title_en" : "Some Title",
+    "title_ru" : "Какое то название",
+    "duration" : 90,  
+    "genre_id" : 1,
+    "country" : "Kazakhstan",
+    "rating" : 10
+}
+

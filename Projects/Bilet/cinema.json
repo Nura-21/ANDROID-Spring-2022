@@ -1,0 +1,10 @@
+{
+    "id" : 1,
+    "name" : "Some Name",
+    "address" : "Some address",
+    "number_of_halls" : 4,  
+    "about" : "Some information about cinema",
+    "image" : "some image",
+    "rating" : 10
+}
+

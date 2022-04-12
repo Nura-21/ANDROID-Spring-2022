@@ -1,5 +1,0 @@
-1) Application for buying tickets "online".
-
-The base and API created on django will be used.
-
-2)
